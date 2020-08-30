@@ -1,0 +1,96 @@
+ http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T121915.405.html
+
+###
+
+ http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T114918.405.html
+
+###
+
+ http://localhost:8080
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T114538.405.html
+
+###
+
+ http://localhost:8080/message
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T114448.501.html
+
+###
+
+ http://localhost:8080/message
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T114253.501.html
+
+###
+
+ http://localhost:8080/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T114246.405.html
+
+###
+
+GET http://localhost:8080/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T113346.404.html
+
+###
+
+GET http://localhost:8080/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T111645.200.html
+
+###
+
+GET http://localhost:8080/LearningEE
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T110915.404.html
+
+###
+
+GET http://localhost:8080/LearningEE/message
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T110907.404.html
+
+###
+
+GET http://localhost:8080/LearningEE/message
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T110836.404.html
+
+###
+
+GET http://localhost:8080/LearningEE
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-30T110748.404.html
+
+###
+
