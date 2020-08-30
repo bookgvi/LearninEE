@@ -1,9 +1,16 @@
 package services.getMessage;
 
-public class Message implements IMessage {
-  public Message () {}
+import javax.enterprise.context.RequestScoped;
 
-  public String get(String msg) {
+@RequestScoped
+public class Message implements IMessage {
+  public Message () {
+  }
+
+  public String get (String msg) {
     return msg;
+  }
+  public String get () {
+    return "This is get message service";
   }
 }
