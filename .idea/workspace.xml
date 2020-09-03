@@ -7,21 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LearningEE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/NotFoundController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/MessageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/RootController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/services/getMessage/IMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/services/getMessage/IMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/services/getMessage/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/services/getMessage/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/getMessage/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/getMessage/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LearningEE.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/MessageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/RootController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/getMessage/IMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/getMessage/IMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/getMessage/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/getMessage/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/RootController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/RootController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/RootController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -430,7 +422,7 @@
       <updated>1598774466534</updated>
       <workItem from="1598774469687" duration="2878000" />
       <workItem from="1598777442918" duration="4733000" />
-      <workItem from="1599139280418" duration="3027000" />
+      <workItem from="1599139280418" duration="10124000" />
     </task>
     <servers />
   </component>
