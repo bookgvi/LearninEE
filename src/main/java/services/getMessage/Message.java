@@ -11,6 +11,6 @@ public class Message implements IMessage {
     return msg;
   }
   public String get () {
-    return "This is get message service";
+    return "This is get message service!!!";
   }
 }
