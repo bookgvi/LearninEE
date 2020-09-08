@@ -26,4 +26,6 @@ public class MessageController extends HttpServlet {
     response.setCharacterEncoding("UTF-8");
     response.getWriter().write(message.get());
   }
+
+  protected synchronized void enterringServiceMethod() {}
 }

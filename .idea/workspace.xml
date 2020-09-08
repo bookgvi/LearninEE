@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/NotFoundController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/RootController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/RootController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/RootController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/glassfish4/docs/javaee-tutorial/examples/ejb/standalone" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -422,7 +417,9 @@
       <updated>1598774466534</updated>
       <workItem from="1598774469687" duration="2878000" />
       <workItem from="1598777442918" duration="4733000" />
-      <workItem from="1599139280418" duration="10124000" />
+      <workItem from="1599139280418" duration="11475000" />
+      <workItem from="1599202938262" duration="3420000" />
+      <workItem from="1599490138838" duration="3022000" />
     </task>
     <servers />
   </component>
