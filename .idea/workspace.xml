@@ -8,13 +8,32 @@
   <component name="ChangeListManager">
     <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/NotFoundController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/NotFoundController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/NotFoundController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/NotFoundController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,7 +49,7 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_INFO" value="false" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
@@ -45,10 +64,15 @@
     <property name="last_opened_file_path" value="C:/glassfish4/docs/javaee-tutorial/examples/ejb/standalone" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="localhost.controllers" />
+    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -255,6 +279,7 @@
   <component name="RunManager" selected="GlassFish Server.GlassFish 5.0.1">
     <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="LearningEE:war exploded">
@@ -420,6 +445,15 @@
       <workItem from="1599139280418" duration="11475000" />
       <workItem from="1599202938262" duration="3420000" />
       <workItem from="1599490138838" duration="3022000" />
+      <workItem from="1599581971437" duration="692000" />
+      <workItem from="1599819660570" duration="593000" />
+      <workItem from="1599895962669" duration="2265000" />
+      <workItem from="1600408214550" duration="611000" />
+      <workItem from="1600461016739" duration="1419000" />
+      <workItem from="1600464353740" duration="5000" />
+      <workItem from="1600508687431" duration="1209000" />
+      <workItem from="1600521696817" duration="385000" />
+      <workItem from="1600522903672" duration="4683000" />
     </task>
     <servers />
   </component>

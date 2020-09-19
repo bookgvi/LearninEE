@@ -24,7 +24,7 @@ public class MessageController extends HttpServlet {
     String msg = "Hello, RESTfull";
     response.setContentType("application/json");
     response.setCharacterEncoding("UTF-8");
-    response.getWriter().write(message.get());
+    response.getWriter().write(String.valueOf(-2 >> 1));
   }
 
   protected synchronized void enterringServiceMethod() {}
