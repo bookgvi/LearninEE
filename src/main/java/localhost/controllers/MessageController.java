@@ -3,6 +3,8 @@ package localhost.controllers;
 import services.getMessage.IMessage;
 
 import javax.inject.Inject;
+import javax.json.Json;
+import javax.json.JsonObject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -37,15 +39,20 @@ public class MessageController extends HttpServlet {
 
   @Override
   protected void doPost (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    resp.getWriter().write(req.getContextPath() + "\n");
-    resp.getWriter().write(req.getServletPath() + "\n");
-    resp.getWriter().write(req.getPathInfo() + "\n");
-    resp.getWriter().write(req.getParameterMap() + "\n");
-    resp.getWriter().write(req.getParameter("name") + "\n");
-    resp.getWriter().write(req.getParameterNames() + "\n");
-    resp.getWriter().write(Arrays.toString(req.getParameterValues("note")) + "\n");
-    resp.getWriter().write(req.getAttributeNames() + "\n");
-    resp.getWriter().write(req.getHeader("content-type") + "\n");
+    resp.setContentType("application/json");
+    resp.setCharacterEncoding("utf-8");
+    JsonObject respBody = Json.createObjectBuilder()
+        .add("contextPath", req.getContextPath())
+        .add("servletPath", req.getServletPath())
+        .add("pathInfo", req.getPathInfo())
+        .add("parameterMap", String.valueOf(req.getParameterMap()))
+        .add("name", req.getParameter("name"))
+        .add("parmetersNmes", String.valueOf(req.getParameterNames()))
+        .add("note", Json.createArrayBuilder(Arrays.asList(req.getParameterValues("note"))))
+        .add("reqAttrName", String.valueOf(req.getAttribute("reqAttrName")))
+        .add("content-type", req.getHeader("content-type"))
+        .build();
+    resp.getWriter().write(String.valueOf(respBody));
   }
 
   protected synchronized void enterringServiceMethod() {}

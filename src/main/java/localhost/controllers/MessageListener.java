@@ -16,9 +16,14 @@ public class MessageListener implements ServletContextListener, ServletContextAt
   private static final Logger log = Logger.getLogger("learningEE.web.messageServlet");
 
   @Override
+  public void requestInitialized (ServletRequestEvent sre) {
+    ServletRequest sreq = sre.getServletRequest();
+    sreq.setAttribute("reqAttrName", "reqAttrValue");
+  }
+
+  @Override
   public void contextInitialized(ServletContextEvent ctx) {
-    log.log(Level.INFO, "QQQ", ctx.getServletContext());
-    System.out.println("Context!!!!!!!!!!!!!!!!!");
+    ServletContext sc = ctx.getServletContext();
   }
 
   @Override
