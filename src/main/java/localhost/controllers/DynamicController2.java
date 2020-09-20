@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class DynamicController extends HttpServlet {
+public class DynamicController2 extends HttpServlet {
   @Override
   protected void doPost (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     resp.setContentType("application/json");
@@ -17,9 +17,6 @@ public class DynamicController extends HttpServlet {
     JsonObject respBody = Json.createObjectBuilder()
         .add("ControllerName", getServletConfig().getServletName())
         .add("initParam1", getServletConfig().getInitParameter("initParam1"))
-        .add("ServletRegistrations", getServletConfig().getInitParameter("initParam2"))
-        .add("servletPath", req.getServletPath())
-        .add("reqAttrName", String.valueOf(req.getAttribute("reqAttrName")))
         .build();
     resp.getWriter().write(String.valueOf(respBody));
   }

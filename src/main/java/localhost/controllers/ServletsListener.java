@@ -23,11 +23,23 @@ public class ServletsListener implements ServletContextListener, ServletContextA
   @Override
   public void contextInitialized(ServletContextEvent ctx) {
     ServletContext sc = ctx.getServletContext();
-    ServletRegistration sr = sc.addServlet("DynamicServlet", "localhost.controllers.DynamicController");
     Map<String, ? extends ServletRegistration> servletRegistrations = sc.getServletRegistrations();
+
+    // Creating DynamicController
+    ServletRegistration sr = sc.addServlet("DynamicServlet", "localhost.controllers.DynamicController");
     sr.setInitParameter("initParam1", "initParam1Value");
     sr.setInitParameter("initParam2", String.valueOf(servletRegistrations));
     sr.addMapping("/dynamic");
+
+    // Creating DynamicController #2
+    try {
+      DynamicController2 dc2 = sc.createServlet(DynamicController2.class); // try...catch because of this method - <T extends Servlet> T createServlet(Class<T> var1) throws ServletException;
+      ServletRegistration sr2 = sc.addServlet("DynamicServlet2", dc2);
+      sr2.setInitParameter("initParam1", "QQQ");
+      sr2.addMapping("/dynamic2");
+    } catch (ServletException se) {
+      throw new IllegalStateException(se);
+    }
   }
 
   @Override

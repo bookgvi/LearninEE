@@ -8,10 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/DynamicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/NotFoundController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/NotFoundController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/ServletsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/ServletsListener.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
