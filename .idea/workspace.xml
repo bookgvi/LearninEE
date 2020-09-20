@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="" />
+    <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/DynamicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/DynamicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/ServletsListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/ServletsListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/DynamicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/ServletsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/ServletsListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/DynamicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/DynamicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/ServletsListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/ServletsListener.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,7 +457,7 @@
       <workItem from="1600508687431" duration="1209000" />
       <workItem from="1600521696817" duration="385000" />
       <workItem from="1600522903672" duration="4857000" />
-      <workItem from="1600585938779" duration="16294000" />
+      <workItem from="1600585938779" duration="16733000" />
     </task>
     <servers />
   </component>

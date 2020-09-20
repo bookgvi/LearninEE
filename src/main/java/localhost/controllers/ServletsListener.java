@@ -1,11 +1,15 @@
 package localhost.controllers;
 
+import services.utils.ISerialize;
+
+import javax.inject.Inject;
 import javax.servlet.*;
 import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpSessionAttributeListener;
 import javax.servlet.http.HttpSessionBindingListener;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -25,9 +29,9 @@ public class ServletsListener implements ServletContextListener, ServletContextA
   public void contextInitialized(ServletContextEvent ctx) {
     ServletContext sc = ctx.getServletContext();
     ServletRegistration sr = sc.addServlet("DynamicServlet", "localhost.controllers.DynamicController");
-    ServletRegistration messageController = sc.getServletRegistration("MessageServlet");
+    Map<String, ? extends ServletRegistration> servletRegistrations = sc.getServletRegistrations();
     sr.setInitParameter("initParam1", "initParam1Value");
-    sr.setInitParameter("initParam2", String.valueOf(messageController));
+    sr.setInitParameter("initParam2", String.valueOf(servletRegistrations));
     sr.addMapping("/dynamic");
   }
 

@@ -18,7 +18,7 @@ public class DynamicController extends HttpServlet {
 
     JsonObject respBody = Json.createObjectBuilder()
         .add("initParam1", getServletConfig().getInitParameter("initParam1"))
-        .add("MessageController", getServletConfig().getInitParameter("initParam2"))
+        .add("ServletRegistrations", getServletConfig().getInitParameter("initParam2"))
         .add("servletPath", req.getServletPath())
         .add("reqAttrName", String.valueOf(req.getAttribute("reqAttrName")))
         .build();

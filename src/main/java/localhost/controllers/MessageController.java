@@ -48,8 +48,7 @@ public class MessageController extends HttpServlet {
     resp.setContentType("application/json");
     resp.setCharacterEncoding("utf-8");
 
-    JsonObjectBuilder paramsBuilder = Json.createBuilderFactory(req.getParameterMap()).createObjectBuilder();
-    JsonObject params = serialize.mapToJson(req.getParameterMap(), paramsBuilder, 0);
+    JsonObject params = serialize.mapToJson(req.getParameterMap());
     JsonObject respBody = Json.createObjectBuilder()
         .add("contextPath", req.getContextPath())
         .add("servletPath", req.getServletPath())
