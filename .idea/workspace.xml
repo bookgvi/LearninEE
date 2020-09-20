@@ -8,12 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/DynamicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/DynamicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/ServletsListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/ServletsListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/DynamicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/NotFoundController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/NotFoundController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/ServletsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/ServletsListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/DynamicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/DynamicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/ServletsListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/ServletsListener.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/glassfish4/samples/servlet/dynamic-registration-war" />
+    <property name="last_opened_file_path" value="C:/glassfish4/samples/servlet/absolute-ordering-web-fragments" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />

@@ -3,7 +3,6 @@ package localhost.controllers;
 import requestCounter.ICounter;
 import requestCounter.RequestCounter;
 
-import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

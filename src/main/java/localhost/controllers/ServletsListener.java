@@ -1,19 +1,14 @@
 package localhost.controllers;
 
-import services.utils.ISerialize;
-
-import javax.inject.Inject;
 import javax.servlet.*;
 import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpSessionAttributeListener;
-import javax.servlet.http.HttpSessionBindingListener;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
 import java.util.Map;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@javax.servlet.annotation.WebListener()
+@WebListener()
 public class ServletsListener implements ServletContextListener, ServletContextAttributeListener,
     HttpSessionListener, HttpSessionAttributeListener, ServletRequestListener, ServletRequestAttributeListener {
 
