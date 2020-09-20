@@ -14,6 +14,5 @@ public class Serialize implements ISerialize {
       return mapToJson(map, objectBuilder.add(key, String.valueOf(map.get(key))), indexOfItemInMap + 1);
     }
     return objectBuilder.build();
-
   }
 }

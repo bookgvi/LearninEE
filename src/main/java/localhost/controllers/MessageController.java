@@ -56,7 +56,7 @@ public class MessageController extends HttpServlet {
         .add("pathInfo", req.getPathInfo())
         .add("parameterMap", params)
         .add("name", req.getParameter("name"))
-        .add("parmeterNames", String.valueOf(req.getParameterNames()))
+        .add("parameterNames", String.valueOf(req.getParameterNames()))
         .add("note", Json.createArrayBuilder(Arrays.asList(req.getParameterValues("note"))))
         .add("reqAttrName", String.valueOf(req.getAttribute("reqAttrName")))
         .add("content-type", req.getHeader("content-type"))
