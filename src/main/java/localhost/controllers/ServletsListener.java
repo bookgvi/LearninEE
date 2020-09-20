@@ -18,6 +18,8 @@ public class ServletsListener implements ServletContextListener, ServletContextA
   public void requestInitialized (ServletRequestEvent sre) {
     ServletRequest sreq = sre.getServletRequest();
     sreq.setAttribute("reqAttrName", "reqAttrValue");
+    sreq.setAttribute("protocol", sreq.getProtocol());
+    sreq.setAttribute("schema", sreq.getScheme());
   }
 
   @Override
