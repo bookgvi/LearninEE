@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Arrays;
 
-@WebServlet("/message/*")
+@WebServlet(urlPatterns = "/message/*", name = "MessageServlet")
 public class MessageController extends HttpServlet {
   @Inject
   private IMessage message;
@@ -47,7 +47,7 @@ public class MessageController extends HttpServlet {
         .add("pathInfo", req.getPathInfo())
         .add("parameterMap", String.valueOf(req.getParameterMap()))
         .add("name", req.getParameter("name"))
-        .add("parmetersNmes", String.valueOf(req.getParameterNames()))
+        .add("parmeterNames", String.valueOf(req.getParameterNames()))
         .add("note", Json.createArrayBuilder(Arrays.asList(req.getParameterValues("note"))))
         .add("reqAttrName", String.valueOf(req.getAttribute("reqAttrName")))
         .add("content-type", req.getHeader("content-type"))

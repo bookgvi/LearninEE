@@ -25,7 +25,9 @@ public class ServletsListener implements ServletContextListener, ServletContextA
   public void contextInitialized(ServletContextEvent ctx) {
     ServletContext sc = ctx.getServletContext();
     ServletRegistration sr = sc.addServlet("DynamicServlet", "localhost.controllers.DynamicController");
+    ServletRegistration messageController = sc.getServletRegistration("MessageServlet");
     sr.setInitParameter("initParam1", "initParam1Value");
+    sr.setInitParameter("initParam2", String.valueOf(messageController));
     sr.addMapping("/dynamic");
   }
 
