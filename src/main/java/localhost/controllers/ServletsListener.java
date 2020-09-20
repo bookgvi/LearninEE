@@ -9,8 +9,8 @@ import javax.servlet.http.HttpSessionListener;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@WebListener()
-public class MessageListener implements ServletContextListener, ServletContextAttributeListener,
+@javax.servlet.annotation.WebListener()
+public class ServletsListener implements ServletContextListener, ServletContextAttributeListener,
     HttpSessionListener, HttpSessionAttributeListener, ServletRequestListener, ServletRequestAttributeListener {
 
   private static final Logger log = Logger.getLogger("learningEE.web.messageServlet");
@@ -24,6 +24,9 @@ public class MessageListener implements ServletContextListener, ServletContextAt
   @Override
   public void contextInitialized(ServletContextEvent ctx) {
     ServletContext sc = ctx.getServletContext();
+    ServletRegistration sr = sc.addServlet("DynamicServlet", "localhost.controllers.DynamicController");
+    sr.setInitParameter("initParam1", "initParam1Value");
+    sr.addMapping("/dynamic");
   }
 
   @Override
