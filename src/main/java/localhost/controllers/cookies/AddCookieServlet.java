@@ -8,9 +8,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name="DataTypeToCookie", urlPatterns = "/save-data")
-public class AddDataTypeToCookieServlet extends HttpServlet {
-  public static String dataTypeKey = "data-type";
+@WebServlet(name = "DataTypeToCookie", urlPatterns = "/save-data")
+public class AddCookieServlet extends HttpServlet {
+  static String dataTypeKey = "data-type";
+
   @Override
   protected void doPost (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     String dataTypeValue = req.getParameter(dataTypeKey);

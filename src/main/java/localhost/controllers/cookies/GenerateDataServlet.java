@@ -16,7 +16,7 @@ public class GenerateDataServlet extends HttpServlet {
   @Override
   protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     Optional<Cookie> cookies = Arrays.stream(req.getCookies())
-        .filter(item -> AddDataTypeToCookieServlet.dataTypeKey.equals(item.getName()))
+        .filter(item -> AddCookieServlet.dataTypeKey.equals(item.getName()))
         .findAny();
     if (cookies.isPresent()) {
       resp.setContentType("text/html");
