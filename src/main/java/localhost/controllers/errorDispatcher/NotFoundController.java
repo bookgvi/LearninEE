@@ -1,4 +1,4 @@
-package localhost.controllers;
+package localhost.controllers.errorDispatcher;
 
 import requestCounter.ICounter;
 import requestCounter.RequestCounter;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/404")
+@WebServlet("/404")
 public class NotFoundController extends HttpServlet {
   @Override
   public void doGet (HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
@@ -32,7 +32,7 @@ public class NotFoundController extends HttpServlet {
             + ". "
             + request.getMethod()
             + ": "
-            + request.getDispatcherType()
+            + "404 - Not Found"
     );
   }
 }
