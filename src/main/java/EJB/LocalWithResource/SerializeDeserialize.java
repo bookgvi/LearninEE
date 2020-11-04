@@ -9,7 +9,14 @@ import java.util.Map;
 public class SerializeDeserialize {
   public String jsonSerialize(Map<?, ?> map) {
     Gson gson = new Gson();
-    String jsonObject = gson.toJson(map);
-    return jsonObject;
+    return gson.toJson(map);
+  }
+  public String jsonSerialize(Object map) {
+    Gson gson = new Gson();
+    return gson.toJson(map);
+  }
+  public String jsonSerialize(String map) {
+    Gson gson = new Gson();
+    return gson.toJson(map);
   }
 }

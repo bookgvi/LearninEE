@@ -1,7 +1,7 @@
 package Resources;
 
+import EJB.LocalWithResource.DummyModelBean;
 import EJB.LocalWithResource.SerializeDeserialize;
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -19,8 +19,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 @Path("/temp")
 public class ResourceTemp {
-  private Map<Integer, Object> dummy = new ConcurrentHashMap<>();
-  private AtomicInteger id = new AtomicInteger();
+  private DummyModelBean dummyModelBean = DummyModelBean.getInstance();
 
   @EJB
   SerializeDeserialize serializeDeserialize;
@@ -33,22 +32,23 @@ public class ResourceTemp {
 
   @GET
   public Response getDummy() {
-    return Response.ok().entity(dummy).build();
+    // TODO релазиовать JSON
+    return Response.ok().entity(dummyModelBean.getDummyMap()).build();
   }
 
   @POST
 
   public Response addDummy(InputStream payload) {
-    int id = this.id.incrementAndGet();
     String msg = "default";
 
     BufferedReader buffer = new BufferedReader(new InputStreamReader(payload));
     JsonObject payloadJson = JsonParser.parseReader(buffer).getAsJsonObject();
     msg = payloadJson.get("msg").getAsString();
 
-    dummy.put(id, msg);
+    Map<Integer, String> currentObj = dummyModelBean.setMsg(msg);
 
-    System.out.print(serializeDeserialize.jsonSerialize(dummy));
-    return Response.status(Response.Status.CREATED).entity(dummy.get(id)).build();
+    // TODO релазиовать JSON
+
+    return Response.status(Response.Status.CREATED).entity(currentObj).build();
   }
 }
