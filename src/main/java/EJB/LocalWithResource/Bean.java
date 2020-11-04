@@ -1,6 +1,13 @@
 package EJB.LocalWithResource;
 
-import javax.ws.rs.core.Response;
+import javax.ejb.Local;
+import javax.ejb.LocalBean;
 
-public class Bean {
+@Local(LocalInterface.class)
+@LocalBean
+public class Bean implements LocalInterface {
+  @Override
+  public String getSomeText() {
+    return null;
+  }
 }
