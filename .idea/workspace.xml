@@ -8,8 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/miltiPath/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/miltiPath/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/miltiPath/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/miltiPath/Listener.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,15 +284,8 @@
   <component name="RunManager" selected="GlassFish Server.GlassFish 5.0.1">
     <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
-      <deployment>
-        <artifact name="LearningEE:war exploded">
-          <settings>
-            <option name="defaultContextRoot" value="false" />
-          </settings>
-        </artifact>
-      </deployment>
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
       <server-settings>
         <option name="DOMAIN" value="domain1" />
         <option name="PRESERVE" value="false" />
@@ -352,9 +345,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="LearningEE:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
     <configuration name="TomCat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
@@ -464,6 +455,16 @@
       <workItem from="1600719379422" duration="2529000" />
       <workItem from="1600842322787" duration="3708000" />
       <workItem from="1600927216378" duration="2514000" />
+      <workItem from="1601114542948" duration="337000" />
+      <workItem from="1601676969643" duration="10000" />
+      <workItem from="1601825173047" duration="586000" />
+      <workItem from="1602282917393" duration="3077000" />
+      <workItem from="1602313567674" duration="175000" />
+      <workItem from="1602315371939" duration="237000" />
+      <workItem from="1603123182937" duration="262000" />
+      <workItem from="1603294014471" duration="16000" />
+      <workItem from="1603710324777" duration="6000" />
+      <workItem from="1604348639169" duration="113000" />
     </task>
     <servers />
   </component>

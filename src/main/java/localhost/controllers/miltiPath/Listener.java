@@ -14,5 +14,6 @@ public class Listener implements ServletContextListener {
     ServletContext sc = sce.getServletContext();
     ServletRegistration sr = sc.addServlet("MultiPartController", MultiPathController.class);
     Arrays.stream(new String[]{"/multipath1", "/multipath2"}).forEach(sr::addMapping);
+    System.out.printf("contextInitialized: %s%n", sc);
   }
 }
