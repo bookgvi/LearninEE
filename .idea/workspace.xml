@@ -7,9 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LearningEE_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/LearningEE_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/localhost/controllers/miltiPath/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/localhost/controllers/miltiPath/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/localhost/controllers/miltiPath/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/localhost/controllers/miltiPath/Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE/LearningEE.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/miltiPath/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/miltiPath/Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/upload.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +67,8 @@
     <property name="last_opened_file_path" value="C:/glassfish4/samples/servlet/session-cookie-config-war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -284,8 +291,14 @@
   <component name="RunManager" selected="GlassFish Server.GlassFish 5.0.1">
     <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="LearningEE:war exploded">
+          <settings>
+            <option name="defaultContextRoot" value="false" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="DOMAIN" value="domain1" />
         <option name="PRESERVE" value="false" />
@@ -344,8 +357,10 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="LearningEE:war exploded" />
+        </option>
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
     <configuration name="TomCat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
@@ -465,6 +480,7 @@
       <workItem from="1603294014471" duration="16000" />
       <workItem from="1603710324777" duration="6000" />
       <workItem from="1604348639169" duration="113000" />
+      <workItem from="1604477886880" duration="2231000" />
     </task>
     <servers />
   </component>
