@@ -7,44 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2c0f189-fa4a-4754-ac07-b4b86cd078a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LearningEE_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/LearningEE_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/ApplicationEntryPoint/EntryPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/EJB/LocalWithResource/Bean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/EJB/LocalWithResource/Local.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/META-INF/LearninEE.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/META-INF/LearningEE.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/Resources/ResourceTemp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/DynamicController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/DynamicController2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/LearningSessionScope/Beans/MySessionBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/LearningSessionScope/Beans/SessionScopeBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/LearningSessionScope/Servlets/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/LearningSessionScope/Servlets/SessionServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/MessageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/MultipartFormData/MultipartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/ServletsListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/cookies/AddCookieServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/cookies/GenerateDataServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/cookies/RemoveCookieServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/errorDispatcher/DefaultErrorHandlerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/errorDispatcher/ExceptionFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/errorDispatcher/GenerateExcaptionServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/errorDispatcher/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/errorDispatcher/NotFoundController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/miltiPath/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/localhost/controllers/miltiPath/MultiPathController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/requestCounter/ICounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/requestCounter/RequestCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/services/getMessage/IMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/services/getMessage/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/services/utils/ISerialize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded/WEB-INF/classes/services/utils/Serialize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EJB/LocalWithResource/Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EJB/LocalWithResource/Bean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EJB/LocalWithResource/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EJB/LocalWithResource/LocalInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EJB/LocalWithResource/Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EJB/LocalWithResource/Bean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EJB/LocalWithResource/Local.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -508,7 +471,7 @@
       <workItem from="1603294014471" duration="16000" />
       <workItem from="1603710324777" duration="6000" />
       <workItem from="1604348639169" duration="113000" />
-      <workItem from="1604477886880" duration="3703000" />
+      <workItem from="1604477886880" duration="4011000" />
     </task>
     <servers />
   </component>
