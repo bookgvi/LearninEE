@@ -1,10 +1,13 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="LearningEE:war exploded">
+  <artifact type="exploded-war" name="LearningEE:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/LearningEE_war_exploded</output-path>
-    <root id="archive" name="LearningEE_war exploded.war">
+    <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="LearninEE" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.6" />
         </element>
       </element>
     </root>
